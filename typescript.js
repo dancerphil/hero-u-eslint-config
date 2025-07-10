@@ -12,6 +12,7 @@ const stylisticConfigs = stylistic.configs.customize({
     semi: true,
     jsx: true,
     commaDangle: 'always-multiline',
+    blockSpacing: false,
 });
 
 export const typescriptConfig = [

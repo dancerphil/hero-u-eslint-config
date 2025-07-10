@@ -2,7 +2,7 @@ import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import {typescriptConfig} from './typescript.js';
 
-const reactExtraConfig = [
+export const reactExtraConfig = [
     react.configs.flat.recommended,
     react.configs.flat['jsx-runtime'],
     {
